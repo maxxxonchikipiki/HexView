@@ -1,0 +1,114 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "timeout 1 ./hexview tests/ex1.txt > output.txt && cmp -s output.txt tests/ex1.txt.hex",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "timeout 1 ./hexview tests/ex2.jpg > output.txt && cmp -s output.txt tests/ex2.jpg.hex",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "timeout 1 ./hexview tests/ex3.jpg > output.txt && cmp -s output.txt tests/ex3.jpg.hex",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "timeout 1 ./hexview tests/ex4.txt > output.txt && cmp -s output.txt tests/ex4.txt.hex",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "timeout 1 ./hexview tests/ex5.txt > output.txt && cmp -s output.txt tests/ex5.txt.hex",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "timeout 1 ./hexview -s 24 -n 1000 tests/ex1.txt > output.txt && cmp -s output.txt tests/ex6.txt.hex",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "timeout 1 ./hexview -n 1000 -s 24 tests/ex1.txt > output.txt && cmp -s output.txt tests/ex6.txt.hex",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "timeout 1 ./hexview -n 10 tests/ex5.txt > output.txt && cmp -s output.txt tests/ex8.txt.hex",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "timeout 1 ./hexview -n 100 -s 120000 tests/ex1.txt > output.txt && cmp -s output.txt tests/ex9.txt.hex",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "timeout 1 ./hexview -n 100 tests/ex5.txt > output.txt && cmp -s output.txt tests/ex5.txt.hex",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11",
+      "setup": "",
+      "run": "timeout 1 ./hexview -s 12 tests/ex5.txt > output.txt && cmp -s output.txt tests/ex11.txt.hex",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
