@@ -27,7 +27,6 @@ jobs:
       - name: Autograding
         uses: amcp-pit/autograding@v1
 
-      # ⚠️ Добавлен шаг установки valgrind
       - name: Install valgrind
         run: |
           sudo apt-get update -qq
