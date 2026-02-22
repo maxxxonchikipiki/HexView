@@ -1,4 +1,4 @@
-![Workflow Status](https://github.com/maxxxonchikipiki/haar/actions/workflows/classroom.yml/badge.svg)
+![Workflow Status](https://github.com/maxxxonchikipiki/HewView/actions/workflows/classroom.yml/badge.svg)
 # HexView
 Написать программу, которая выводит на экран информацию из входного файла в шестнадцатеричном формате.
 
